@@ -1,5 +1,7 @@
 package org.vaadin.addons.pulltorefresh;
 
-public interface PullToRefreshListener {
+import java.io.Serializable;
+
+public interface PullToRefreshListener extends Serializable {
     void onRefresh();
 }
